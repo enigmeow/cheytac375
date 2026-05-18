@@ -132,13 +132,14 @@ For no-cap Heavy ELR, the two dominant chassis are **Accurate Rifle Systems (ARC
 
 ---
 
-### 3.5 Muzzle brake — APA Little/Fat Bastard or Terminator T5
+### 3.5 Muzzle brake — Terminator T5 or builder's .375-class brake
 
 .375 CheyTac generates significant recoil even from a 25+ lb rifle. A brake is mandatory both for spotting impacts and for repeatable position behind the gun.
 
-- **Primary:** **American Precision Arms (APA) Fat Bastard Gen 3** in .375. Three-port, 100% gas redirection forward-and-rear, near-zero rearward thrust. ([americanprecisionarms.com](https://www.americanprecisionarms.com/))
-- **Alternate 1:** **Terminator T5** — what's in the Sniper's Hide kit gun and many Bartlein-recommended builds.
-- **Alternate 2:** **Area 419 Hellfire Maverick** — newer, gaining KO2M traction.
+- **Primary:** **Terminator T5** — what's in the Sniper's Hide kit gun and many Bartlein-recommended builds.
+- **Alternate 1:** **Area 419 Hellfire / Maverick** — verify current .375-caliber availability and thread options.
+- **Alternate 2:** builder's preferred .375-class brake.
+- **Do not assume:** APA Fat Bastard Gen 3 in .375. APA's current Gen 3 catalog does not list .375; treat older references as custom/obsolete unless APA confirms otherwise.
 
 **Spec:** thread to barrel maker's specified shank diameter and pitch (Bartlein will spec this on order — typically 1.000"-20 or 1.125"-20 for this contour). Timed brake, not self-timing.
 
@@ -152,18 +153,16 @@ For no-cap Heavy ELR, the two dominant chassis are **Accurate Rifle Systems (ARC
 
 **Approximate price:** $4,500 (DLR variant, SKMR4+, right-hand windage).
 
-**System elevation math for 2-mile capability:**
+**Elevation planning for 2-mile capability:**
 
-| Source | Mils |
+| Source | Published / nominal value |
 |---|---|
-| K540i internal travel | 29 |
-| Action rail (40 MOA) | 11.6 |
-| Spuhr SP-6602 mount cant (60 MOA) | 17.5 |
-| **Total mechanical** | **~58 mils** |
+| K540i total internal elevation travel | 29 mils |
+| Action rail (40 MOA) | 11.6 mils cant |
+| Spuhr SP-6602 mount cant | 6 mils / ~20.6 MOA |
+| Total base cant | ~17.6 mils |
 
-A 350gr Lazer at 3,100 fps needs roughly **40–45 mils** of dial-up to reach 2,000 yards (depending on atmospherics) and **80–95 mils** to reach 2 miles (3,520 yards). So:
-- **To 2,000 yards:** mechanical-only is fine. Skip the TARAC and just dial.
-- **To 2 miles:** you need an optical assist. **Charlie TARAC is mandatory** for this build — see §3.7.
+Do **not** add total internal scope travel and base cant as guaranteed usable dial-up after zero. Usable elevation depends on where the rifle actually zeroes inside the scope's travel and how much travel remains above the zero stop. A 350gr Lazer at ~3,100 fps likely needs more elevation than the conventional Kahles/SP-6602/40-MOA-rail stack can provide at 2 miles. **Charlie TARAC is mandatory** for this build unless final zeroing and solver data prove a different elevation plan works — see §3.7.
 
 **Why Kahles K540i over the other "alpha tier" scopes:**
 - Glass is alpha-class — same Schott HT tier as ZCO and S&B.
@@ -181,19 +180,19 @@ A 350gr Lazer at 3,100 fps needs roughly **40–45 mils** of dial-up to reach 2,
 
 ### 3.7 Scope mount + cant + Charlie TARAC (mandatory for 2 miles)
 
-**Mount:** **Spuhr SP-6602** for the Kahles K540i's **36mm tube**, with 60 MOA built-in cant. Stacked on the action's 40 MOA integral rail = **100 MOA total base cant** (~29 mils). ([spuhr.biz](https://spuhr.biz/))
+**Mount:** **Spuhr SP-6602** for the Kahles K540i's **36mm tube**, with **6 MIL / ~20.6 MOA** built-in cant. Stacked on the action's 40 MOA integral rail = **~60.6 MOA total base cant** (~17.6 mils). ([spuhr.biz](https://spuhr.biz/))
 
-- **Primary:** Spuhr **SP-6602** (36mm rings, 60 MOA cant). Confirm ring height for K540i's 56mm objective + heavy contour barrel — likely H38 or H44.
+- **Primary:** Spuhr **SP-6602** (36mm rings, 6 MIL / ~20.6 MOA cant). Confirm ring height for K540i's 56mm objective + heavy contour barrel — likely H38.
 - **Alternate 1:** **ERA-TAC adjustable** in 36mm — variable 0–70 MOA cant, lets you tune without re-buying. Heavier; some prefer this for ELR.
 - **Alternate 2:** **ARC M-Brace** in 36mm — purpose-built ELR mount, used in the *Ultimate Reloader* reference build.
 
-**Charlie TARAC: MANDATORY for this build.** The Kahles K540i's 29 mils internal elevation + 100 MOA base cant gets you to ~2,000 yards. For 2 miles (3,520 yd) you need an optical assist. The **Charlie TARAC** is a periscope-prism device that optically shifts the target image up before it enters your scope, adding effective elevation without moving the scope's mechanical zero. ([tacomhq.com/charlie-tarac](https://tacomhq.com/charlie-tarac/))
+**Charlie TARAC: MANDATORY for this build.** The Kahles K540i's 29 mils total internal elevation travel plus ~17.6 mils of base cant is not enough to count on for 2 miles after the rifle is actually zeroed. The **Charlie TARAC** is a periscope-prism device that optically shifts the target image up before it enters your scope, adding effective elevation without moving the scope's mechanical zero. ([tacomhq.com/charlie-tarac](https://tacomhq.com/charlie-tarac/))
 
-- **Primary:** **Charlie TARAC Mk8 variable** — 0–250 mils (0–850 MOA), continuously adjustable. ~$2,000. Right answer for a no-compromise build because you can tune the boost rather than living with a fixed prism.
-- **Alternate:** **Charlie TARAC Mk6 fixed prism** — 60 mils (200 MOA) fixed. ~$1,200. Cheaper but you commit to one elevation boost.
+- **Primary:** **Charlie TARAC variable** — continuously adjustable optical-shift periscope. Exact model, adjustment range, and current price must be confirmed with TACOM HQ before ordering; the variable option is the right answer for a no-compromise build because you can tune the boost rather than living with a fixed prism.
+- **Alternate:** **Charlie TARAC fixed prism** — single-value optical boost. Cheaper but you commit to one elevation shift. Confirm current fixed-prism options/prices with TACOM HQ.
 - **Mounting:** TARAC bolts to the same Picatinny rail as the scope mount; comes with rail-and-rings interface. Confirm rail length on chosen chassis is sufficient (most ELR chassis ship with 8–10" forward rail real estate).
 
-**Total system elevation with Kahles K540i + Spuhr 60 MOA + 40 MOA rail + Charlie TARAC variable:** ~58 mils mechanical + 250 mils optical = **~308 mils**. Massive overshoot for 2 miles; gives flexibility to zero conservatively and run shorter optical boosts for typical ranges.
+**Total system elevation with Kahles K540i + Spuhr SP-6602 + 40 MOA rail + Charlie TARAC variable:** actual usable dial after zero plus the selected TARAC optical shift. With a variable TARAC configured for ELR work, this is more than enough for 2 miles with flexibility to zero conservatively and run shorter optical boosts for typical ranges. Confirm the exact TARAC adjustment range with TACOM HQ at order time.
 
 ---
 
@@ -227,12 +226,13 @@ For dedicated Heavy ELR (square range, prone, KO2M-style), the **LRA (Long Range
 
 ### 3.11 Suppressor (optional, recommended)
 
-A .375 CheyTac with a Fat Bastard brake is *brutally* loud — well over 170 dB at the shooter's left ear. ELR matches allow suppressors. **Strongly recommend.**
+A .375 CheyTac with a high-efficiency brake is *brutally* loud. ELR matches generally allow suppressors, but verify the specific match/range rule book. **Strongly recommend.**
 
-- **Primary:** **Thunder Beast Arms Ultra 9** or **Ultra 12** in .375. (Match-class titanium.) ([thunderbeastarms.com](https://thunderbeastarms.com/))
-- **Alternate:** **Q Full Auto** in .375, or **OCL Polonium 50** (rated for .50 BMG, so .375 CT is well within envelope).
+- **Primary:** **Thunder Beast Arms Ultra 50** — a serious .50-class TBAC option to ask TBAC/the builder about for .375 CT. Confirm cartridge, barrel length, mount, and pressure limits with TBAC before ordering. ([thunderbeastarms.com](https://thunderbeastarms.com/))
+- **Alternate:** Any quality **.50 BMG-rated** suppressor — confirm .375 CT use with the maker and your dealer.
+- **Do not assume:** TBAC "Ultra 12" or OCL "Polonium 50"; neither appears in current catalogs.
 
-**ATF Form 4 wait:** typically 30–90 days as of 2026. Order parallel with the build.
+**ATF Form 4 wait:** check ATF's current processing page before buying. As of ATF's March 2026 data, Form 4 individual eForms averaged ~6 days and trust eForms averaged ~25 days, while paper filings averaged 20–30 days. Order parallel with the build either way.
 
 ---
 
@@ -256,7 +256,7 @@ Three credible paths from here:
 |---|---|---|---|
 | **Alamo Precision Rifles (APR)** | Hurst, TX | Catalog .375 CT in their store (Stiller TAC 408 + K&P barrel + McMillan A5); production-grade repeatability; reportedly 4-week quote-to-build turnaround on standard configs (verify for custom). Fast for this tier. | [APR Custom 375 CT in their catalog](https://aprifles.com/products/apr-custom-375-cheytac) — referenced by multiple KO2M shooters. |
 | **Vestal's Custom Rifles** | Bristol, VA (was TX) | Robert Vestal personally builds; Bartlein-based; uses Cadex or McMillan stocks; Robert also teaches ELR clinics and wind-reading. Highest-touch shop on the list. | Multiple .375 CT ELR builds documented; [Vestal's CDX-40 Shadow .375 CT for sale](https://www.snipershide.com/shooting/threads/sold-elr-ready-vestals-custom-rifles-cadex-cdx-40-shadow-32-1-7-375-cheytac.7021368/). |
-| **Global Precision Group (GPG)** | (Paul Phillips' shop) | **Paul Phillips won KO2M 2017** and is one of the most-named individuals in ELR. GPG builds for serious competitors. Likely longest lead times in tier 1 because of demand. | [Paul Phillips KO2M 2-mile-shot walkthrough](https://ultimatereloader.com/2025/06/08/the-2-mile-shot-getting-on-target-with-paul-phillips-gpg/) — 2017 King of 2 Miles champion. |
+| **Global Precision Group (GPG)** | (Paul Phillips' shop) | Paul Phillips is one of the most-named individuals in serious ELR — Applied Ballistics-team history, multiple KO2M finishes, ELR-instructor presence. (The 2017 KO2M individual winner was Derek Rodgers with .375 CheyTac; Phillips is often credited via the Applied Ballistics team context.) GPG builds for serious competitors. Likely longest lead times in tier 1 because of demand. | [Paul Phillips KO2M 2-mile-shot walkthrough](https://ultimatereloader.com/2025/06/08/the-2-mile-shot-getting-on-target-with-paul-phillips-gpg/) |
 | **Warner Tool Company** | NH | Vertical integration: they make the .375 Flatline bullets, the dies, *and* the rifles. One vendor for projectile + chamber compatibility. | Built Marco Been's KO2M .375 CT. |
 
 ### Tier-2 custom builders (excellent, less-famous)
@@ -281,7 +281,7 @@ Three credible paths from here:
 
 **Quote competitors:**
 - **Alamo Precision Rifles (APR)** — Hurst, TX. Closest production-grade analog; useful sanity check on price and lead time.
-- **Global Precision Group (Paul Phillips)** — KO2M-champion-built; the "best possible smith" benchmark.
+- **Global Precision Group (Paul Phillips)** — serious ELR / Applied Ballistics-team benchmark.
 
 The RFQ email template in §12 covers all three shops. Send it to all three the same day so quote comparisons are apples-to-apples.
 
@@ -301,7 +301,7 @@ The long-lead items determine the schedule. Order in this sequence:
 1. **Action — order day 1.** 6–12 month lead. Pick a builder before ordering so the action can ship directly to them.
 2. **Optic — order day 1.** Some are 6+ months out (especially March Genesis and ZCO).
 3. **Barrel — order once builder + reamer are confirmed.** Bartlein gain-twist is 6–9 months. Order before you have the action in hand; they'll ship to the smith.
-4. **Suppressor (if buying) — file Form 4 day 1.** Even at 30–90 days, doesn't hurt to start.
+4. **Suppressor (if buying) — file Form 4 day 1.** Current eForm waits may be short, but filing early keeps it off the critical path.
 5. **Chassis — order when builder confirms inlet availability for the action serial.** 2–4 months.
 6. **Brake, trigger, rings/mount — order during build window.** Off-the-shelf, no lead.
 7. **Bipod, rear bag — order last.** Same day delivery from most vendors.
@@ -318,15 +318,15 @@ The long-lead items determine the schedule. Order in this sequence:
 | Bartlein gain-twist barrel | $850 | Cut-rifled, premium contour. |
 | ARC ELR chassis (or MPA Comp Heavy) | $3,500 | Inletted for BAT EX. |
 | Bix'n Andy TacSport Pro trigger | $650 | |
-| APA Fat Bastard Gen 3 brake | $325 | Plus ~$100 timing/installation. |
+| Terminator T5 brake (or builder's pick) | ~$400 | Plus ~$100 timing/installation. Do not budget APA Fat Bastard Gen 3 in .375 unless APA confirms a custom/current option. |
 | **Kahles K540i DLR 5-40×56** (SKMR4+ reticle) | $4,500 | Locked optic. Alpha-class glass + DLR turret + 36mm tube. |
-| Spuhr SP-6602 mount w/ 60 MOA (36mm) | $750 | Stacks with 40 MOA rail for 100 MOA base. |
-| Charlie TARAC Mk8 variable | $2,000 | Mandatory for 2-mile capability with K540i's 29 mil internal. |
+| Spuhr SP-6602 mount w/ 6 MIL / ~20.6 MOA (36mm) | $750 | Stacks with 40 MOA rail for ~60.6 MOA total base cant. |
+| Charlie TARAC variable | $2,000+ | Mandatory for 2-mile capability with K540i. Confirm exact model/range/current price with TACOM HQ. |
 | LRA Light Tactical bipod | $700 | |
 | Armageddon Gear Game Changer | $120 | |
 | Builder labor (chambering, fitting, test-fire) | $2,500 | Varies by shop; sometimes bundled into action+barrel quote. |
 | **Subtotal (rifle, glass, mount, TARAC, bipod)** | **~$19,000** | |
-| Thunder Beast Ultra 9 .375 (optional) | $1,800 | +$200 ATF stamp. |
+| Thunder Beast Ultra 50 or comparable .50-class suppressor (optional) | $1,800–$2,400 | Confirm current price and current NFA tax treatment with dealer/ATF. |
 | **Total with suppressor** | **~$21,000** | |
 
 Add shipping, NFA tax stamp, FFL transfer fees (action goes through your dealer), and 8.5% sales tax (TX builders).
@@ -424,8 +424,8 @@ Mistakes that show up in forum threads from people who built this and regretted 
 - ~~Bullet weight — 350gr (Victrix-portable load).~~
 - ~~Bullet identity — Cutting Edge .375 350gr Lazer LRT-SF (G1 0.807 / G7 0.414, OAL 2.078", projection 1.479").~~
 - ~~Optic — Kahles K540i DLR 5-40×56, SKMR4+ reticle.~~
-- ~~Mount — Spuhr SP-6602 (36mm, 60 MOA), stacks with 40 MOA rail.~~
-- ~~Charlie TARAC — Mk8 variable (0-250 mils) — mandatory for 2-mile capability with K540i.~~
+- ~~Mount — Spuhr SP-6602 (36mm, 6 MIL / ~20.6 MOA), stacks with 40 MOA rail.~~
+- ~~Charlie TARAC — variable model — mandatory for 2-mile capability with K540i.~~
 - ~~Builder — Vestal's Custom Rifles (primary), with APR + GPG quote competitors. See §4 + §12 RFQ template.~~
 
 **Still open (in priority order):**
@@ -433,7 +433,7 @@ Mistakes that show up in forum threads from people who built this and regretted 
 1. **Victrix chamber cast / reamer print** — **highest priority, blocks barrel order.** Need a chamber cast from the Victrix (or call Victrix Armaments and ask for the .375 CT reamer print) so the new chamber's freebore matches. Without this, the same loaded round may chamber unsafely (bullet jammed into lands) in one of the two rifles. Cerrosafe cast is ~$30 of materials and 30 min of work.
 2. **Verify existing Victrix load** — powder + charge weight + COAL + primer. Smith will want this to inform throat geometry. Velocity from the Victrix chrono will tell us what to expect from the new 36" barrel (rule of thumb: +25–30 fps/inch).
 3. **Which chassis?** Defer to Vestal's preference (Cadex CDX-40 or McMillan A5 SuperMag typical), or pick now? Recommend deferring — bedding is chassis-specific.
-4. **Suppressor: in this build or skip?** ATF Form 4 wait is 30–90 days but doesn't delay the rifle. See §18.
+4. **Suppressor: in this build or skip?** Current Form 4 timing varies; filing early keeps transfer timing off the rifle-build critical path. See §18.
 5. **Existing brass inventory:** how many fired cases on hand, firing count, neck-turned? Determines whether to order a fresh lot of Peterson at action-order time.
 6. **Existing dies:** what set is owned (Warner Tool / Whidden / Shoot-Long)? FL + neck + seater complete? Confirm before new chamber dimensions are locked.
 7. **Where does this rifle live?** Bench-only vs travel determines EX (heavier, stiffer) vs EXS (lighter, more portable).
@@ -485,16 +485,18 @@ Locked spec (in order of priority):
                        acceptable as alternate.
   6. Trigger:          Bix'n Andy TacSport Pro (preferred) or TriggerTech Diamond
                        Pro. Open to your preference.
-  7. Brake:            APA Fat Bastard Gen 3 (preferred), Terminator T5, or Area
-                       419 Hellfire Maverick — open to your recommendation given
-                       crowning/timing process.
+  7. Brake:            Terminator T5, Area 419 Hellfire/Maverick if available
+                       in .375, or your preferred .375-class brake. Do not quote
+                       APA Fat Bastard Gen 3 in .375 unless you have a confirmed
+                       current/custom source.
   8. Chassis:          Open to your preference — Cadex CDX-40, McMillan A5
                        SuperMag, ARC ELR, or MPA BA Comp Heavy all acceptable.
                        Pick what you have the best bedding workflow for. I'll
                        defer this to you.
   9. Optic / mount:    I'll supply — Kahles K540i DLR 5-40×56 (36mm tube, SKMR4+
-                       reticle) on a Spuhr SP-6602 (60 MOA) plus a TACOM HQ Charlie
-                       TARAC Mk8 variable. No need to source these.
+                       reticle) on a Spuhr SP-6602 (6 MIL / ~20.6 MOA) plus a
+                       TACOM HQ Charlie TARAC variable. No need to source these
+                       unless you recommend a different elevation plan.
  10. Finish:           Cerakote, color to discuss. Cerakote brake to match.
 
 Please quote:
@@ -717,13 +719,13 @@ Every shot needs a spotter with a quality scope on a tripod. .375 CT bullets are
 Open per §11 #4. If yes:
 
 1. File Form 4 with the dealer when the suppressor is purchased.
-2. Submit fingerprints, photos, $200 NFA tax stamp.
-3. **eFile wait as of 2026:** ~30–90 days (down from 6–12 mo prior).
+2. Submit fingerprints, photos, dealer transfer/admin steps, and any applicable NFA tax. As of 2026, suppressor transfer-tax treatment has changed; verify current Form 4 instructions and ATF guidance before budgeting a stamp.
+3. **eFile wait, 2026:** check ATF's current page. March 2026 averages were ~6 days for Form 4 individual eForms and ~25 days for trust eForms; paper Form 4 averages were 20–30 days. (Down dramatically from the 6–12 month waits common pre-eForms.)
 4. Pick up from dealer once approved.
 
-**Key timing trick:** order the suppressor *first*, in parallel with the rifle build. The 30–90 day wait is then concurrent with the 9–14 month rifle build — not added.
+**Key timing trick:** order the suppressor *first*, in parallel with the rifle build. Even if approval is fast, filing early keeps transfer timing off the rifle-build critical path.
 
-**Tax stamp:** $200, paid at filing. Non-refundable if denied (rare for clean records).
+**Tax / stamp:** verify current ATF Form 4 instructions and dealer workflow before budgeting. Do not rely on older blanket "$200 stamp" notes for suppressors.
 
 ---
 
@@ -808,7 +810,7 @@ Range trips of 30 rounds: ~$135–165 in components alone, not counting travel.
 - Case capacity: ~152 gr H₂O
 - Typical MV (350gr from 30"): 2,900–2,950 fps
 - Typical MV (350gr from 36"): 3,050–3,100 fps
-- Bore: standard SAAMI .375
+- Bore: standard .375" groove diameter
 - Brass life with annealing: ~15 firings
 - Barrel life: ~800–1,200 rounds
 
@@ -833,10 +835,10 @@ If you (Claude) are reading this in a fresh session, this section is your fast o
 | Action | BAT EX (or EXS), .375 CT bolt face, 40 MOA rail |
 | Barrel | Bartlein gain twist 10→9, 36" cut-rifled, MTU contour |
 | Trigger | Bix'n Andy TacSport Pro (primary) or TriggerTech Diamond Pro |
-| Brake | APA Fat Bastard Gen 3 |
+| Brake | Terminator T5 or builder's preferred .375-class brake |
 | Optic | Kahles K540i DLR 5-40×56, SKMR4+ reticle |
-| Mount | Spuhr SP-6602 (36mm, 60 MOA) on 40 MOA action rail |
-| Extra elevation | Charlie TARAC Mk8 variable (0-250 mils) — mandatory |
+| Mount | Spuhr SP-6602 (36mm, 6 MIL / ~20.6 MOA) on 40 MOA action rail |
+| Extra elevation | Charlie TARAC variable model — mandatory |
 | Bipod | LRA Light Tactical |
 | Chassis | Defer to builder — Cadex CDX-40 / McMillan A5 / ARC ELR / MPA Comp Heavy all OK |
 | Builder | **Vestal's Custom Rifles** (primary) — APR + GPG as quote competitors |
@@ -860,7 +862,7 @@ If you (Claude) are reading this in a fresh session, this section is your fast o
 
 1. Make Cerrosafe chamber cast of Victrix (§16).
 2. Send §12 RFQ to Vestal's + APR + GPG simultaneously.
-3. Order Kahles K540i DLR + Spuhr SP-6602 + Charlie TARAC Mk8 variable in parallel (long lead from EuroOptic / Area 419).
+3. Order Kahles K540i DLR + Spuhr SP-6602 + builder-confirmed Charlie TARAC configuration in parallel (long lead from EuroOptic / Area 419).
 4. Decide suppressor yes/no (§11 #4) — if yes, file Form 4 in parallel (§18).
 5. Order Vectronix Terrapin-X LRF + Kestrel 5700 Elite + Garmin Xero C1 Pro in parallel — these are shooter kit, not rifle kit.
 6. Order LRA bipod, Edgewood/Protektor bags last (short lead).
