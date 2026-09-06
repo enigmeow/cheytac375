@@ -5,6 +5,57 @@ _Last verified: June 5, 2026._
 Goal: become an NRA Certified Instructor (e.g., Pistol) by taking instructor
 training in Illinois this year.
 
+## ⭐ START HERE — the prerequisite: NRA Basics of Pistol Shooting (student course)
+
+Before ANY instructor course, you need the **student-level** basics certificate
+in that discipline. For pistol that's **NRA Basics of Pistol Shooting**.
+
+> ⚠️ **CRITICAL:** It must be the **Instructor-Led (ILT) / "Instructor Led Only"**
+> version — the **online/blended NRA pistol course does NOT qualify** as an
+> instructor-course prerequisite. Confirm "instructor-led, in person" when you book.
+
+It's an **8-hour, in-person classroom + range** course. (Bonus: it also covers 8
+of the 16 hours for an Illinois CCL.)
+
+### ✅ Confirmed upcoming Illinois dates
+
+**GAT Guns — NRA Basics of Pistol Shooting (ILT)**
+- **Dates:** **July 11, 2026** or **August 1, 2026** (9:00 am – 5:00 pm)
+- **Location:** 970 Dundee Ave, East Dundee, IL 60118
+- **Price:** $150
+- **Sign up:** https://gatguns.com/classes/nra-basic-pistol/ (online booking) ·
+  **847-428-4867**
+- 👉 Best fit if you want the GAT pistol-instructor weekend (Aug 8 & 15): take the
+  **July 11** basics class first.
+
+### Other Illinois providers (call/check for next date)
+
+**Personal Best Firearms Training — St. Charles, IL**
+- **Price:** $125 · 8-hour ILT
+- **Register:** Eventbrite — https://www.eventbrite.com/e/nra-basics-of-pistol-shooting-course-classroom-tickets-128643055843
+  · **(630) 248-0660** · rcochran@pbftraining.com
+
+**Red Dot Arms — Lake Villa, IL**
+- **Pistol classes:** https://training.reddotarms.com/pistol-classes/
+- **Contact:** **847-603-1548** / training@rdarms.com
+- (Convenient if you then do their instructor course — BIT included there.)
+
+**ISRA — Bonfield, IL**
+- **Training calendar:** https://isra.org/training-calendar/ · **815.844.9949** /
+  academy@isra.org
+
+### Official NRA student-course finder (statewide)
+Find any instructor-led Basics of Pistol Shooting class near you:
+**https://www.nrainstructors.org/search.aspx** → select *"Basics of Pistol
+Shooting — Instructor Led"* and filter by Illinois.
+(Course description: https://www.nrainstructors.org/CatalogInfo.aspx?cid=56)
+
+> For **rifle**, the equivalent prerequisite is **NRA Basics of Rifle Shooting**
+> (also instructor-led) — ask these same providers; GAT Guns and Red Dot Arms
+> both run it.
+
+---
+
 ## How certification works (3 steps)
 
 1. **Meet prerequisites** — 21+, U.S. citizen or legal resident, legally able to
